@@ -1,0 +1,118 @@
+body {
+    background-color: #cee5f5;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0 0 40px 0;
+}
+h1 {
+    color: #1976d2;
+    text-align: center;
+    margin-top: 32px;
+}
+p {
+    font-size: 16px;
+    text-align: justify;
+    max-width: 700px;
+    margin: 24px auto 16px auto;
+}
+ul {
+    max-width: 700px;
+    margin: 0 auto 24px auto;
+    padding-left: 24px;
+    max-width: 200px;
+}
+li {
+    font-size: 16px;
+    text-align: center;
+}
+h2 {
+    color: #1565c0;
+    text-align: center;
+    margin-top: 24px;
+    font-size: 30px;
+}
+h3 {
+    color: #1565c0;
+    text-align: center;
+    margin-top: 16px;
+    font-size: 30px;
+}
+.hobby-img {
+    display: block;
+    margin: 0 auto;
+    width: 220px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 18px;
+}
+table {
+    margin: 0 auto 24px auto;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+}
+table, th, td {
+    border: 1px solid #90caf9;
+    border-radius: 6px;
+}
+td {
+    padding: 12px 18px;
+    text-align: center;
+}
+.country-img {
+    width: 80px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+a {
+    color: #1976d2;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+a:hover {
+    color: #388e3c;
+}
+#mensagem {
+    text-align: center;
+    margin-top: 18px;
+    font-size: 1.1rem;
+    color: #1976d2;
+    display: none;
+}
+hr {
+    width: 50%;
+    margin: 24px auto;
+    border: 1px solid #90badd;
+}
+#botao-js {
+    display: block;
+    margin: 40px auto;
+    background-color: #1976d2;
+    color: #fff;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+#botao-js:hover {
+    background-color: #1f518a;
+}
+#meus-hobbies {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 32px;
+}
+
+#meus-hobbies li {
+    text-align: center;
+    max-width: 220px;
+    margin-bottom: 0;
+    font-size: 16px;
+}
